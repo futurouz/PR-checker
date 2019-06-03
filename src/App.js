@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Checkbox from "./Checkbox.react.js";
 
 class App extends React.Component {
@@ -37,15 +36,17 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <h2>KN: BEFORE PULL REQUEST</h2>
-        {this.onCheckAllChecked() ? (
-          <img
-            src="https://media.giphy.com/media/dr6toZX3D1O8/giphy.gif"
-            alt="gooooo"
-          />
-        ) : (
-          this.renderCheckboxs()
-        )}
+        <div className="checklist-container">
+          <h2>BEFORE PULL REQUEST....</h2>
+          {this.onCheckAllChecked() ? (
+            <img
+              src="https://media.giphy.com/media/dr6toZX3D1O8/giphy.gif"
+              alt="gooooo"
+            />
+          ) : (
+            this.renderCheckboxs()
+          )}
+        </div>
       </div>
     );
   }

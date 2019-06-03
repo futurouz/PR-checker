@@ -8,7 +8,7 @@ const Checkbox = props => (
       onChange={props.onHandleCheckbox}
       checked={props.checked}
     />
-    {props.label}
+    <label className="strikethrough">{props.label}</label>
   </div>
 );
 
