@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web&display=swap);body{font-family:Titillium Web,sans-serif;color:#3c3c3c}.container{display:flex;flex-direction:column;justify-content:center;align-items:center}.checklist-container{border:1px solid #a9a9a9;border-radius:4px;width:500px;padding:10px 35px}label{margin-left:10px}input[type=checkbox]:checked+label.strikethrough{text-decoration:line-through}
+/*# sourceMappingURL=main.43199d9f.chunk.css.map */
